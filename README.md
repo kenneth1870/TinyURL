@@ -6,20 +6,27 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+    ```
+    ruby 2.6.2
+    rails 6.0.4
+    ```
 
 * System dependencies
+    ```
+    bundle install
+    yarn
+    ```
+
 
 * Configuration
 
 * Database creation
-
+    ```
+    rails db:create
+    ```
 * Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    ```
+    rails db:create
+    rails db:migrate
+    ```
 # TinyURL
